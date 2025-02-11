@@ -1,0 +1,60 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# Flask instance folder
+instance/
+
+# Flask config file
+*.env
+*.flaskenv
+
+# IDE/Editor config files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Database files
+*.sqlite3
+
+# Package distribution
+*.egg
+*.egg-info
+dist/
+build/
+
+# Test coverage
+.coverage
+.coverage.*
+nosetests.xml
+pytest.xml
+*.hypothesis/
+
+# Python virtual environment files
+venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dependency directory
+node_modules/
+
+# PyInstaller
+*.spec
+
+# Docker
+docker-compose.override.yml
